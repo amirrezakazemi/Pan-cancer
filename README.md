@@ -4,7 +4,9 @@ this research project is about introducing a machine learning technique to clust
 gene annotation and obtaining mutation profile of samples. corresponding codes are in "preprocessing" folder
 
 codes: 
+
 add_gene.r & add_genemotif.r: in thses two scripts we use ensembl data to annotate dnas and idenify start and end of each gene. input: icgc data, output: a dataframe containing new columns.
+
 count_genes.r & count_genemotifs.r: these two scripts are used to make a matrix that rows are samples and columns are genes/genemotifs. input: icgc data , output: the matrix
 health samples.r: to filter only patients
 intgr_donor.r: preprocessing for clinical analysis.
